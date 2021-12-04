@@ -1,6 +1,14 @@
 {
-  "name": "angular-scss-demo",
+  "name": "angular-scss",
   "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "private": true,
   "dependencies": {
     "@angular/animations": "~13.0.0-next.0",
     "@angular/common": "~13.0.0-next.0",
@@ -13,14 +21,6 @@
     "rxjs": "~7.4.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
-  },
-  "scripts": {
-    "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~13.0.0-rc.2",
